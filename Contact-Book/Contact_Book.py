@@ -13,7 +13,7 @@ def add_contact():
     }
     print("Contact added successfully!")
 
-def view_contacts():
+def view_contacts(): 
     if not contacts:
         print("No contacts found.")
     else:
